@@ -13,57 +13,32 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AYXXX0X/////AAABmeIAuNOoy0IbvKbkjbh911Fw2Qy6aUFkra2FOwoZqxRKOpfgcahp5aBTdfNTmglp3Y5cJGjRK4xbSylMlOLnrEhWQ/g1WH7JwQpa/TybtZkXxmKc7TW26jeSAcUzzHWCB7jtMIPgSMkzi+yJZCvI032hJAXeSAXZhK38NBT+QRgTj2/HCMmhtzpR8a/5qY+y81J1iQpiqMX9JbwdwEffPhVVXTsG098iGHy9O3u3ja/dBAvVHDClGkP6wmtDN47wQKXwTUyAGkZycsLMqiKfVUbXtCt54aez7q66iVTmYFy8YZ+yqf7jvqmJZY+yzT1w6foAc9iy6ZA87bJy4xQOmtlfIG8t79rHxQ60pf2PxJRA
     ufoLicenseKey: QWQ1d2tUci8vLy8vQUFBQUtITTlUbmF5WDBtS2t1Y2RsNURpeHdGa1B3dyt6VkVYTUlTVjN6YXh3WmN2RndIVW5EV3Jpckp1bUUzWUZqZ0dJYlE0MitWMjlDQ2pmQmNlWElBUTZ1L0FnVHN6QzArZTl2Vy80MllHanFZVnBHSkpDem1HQnd4a1J1eDdjR241N2cwMGhBRTZPekorUjU1djFVN3lWSlgwSFVhMmRPQTE4Q3NyNXVWcVl5Y2tMMWFzaE0vYTNkaW4xbjd3d0ttVlNjZjltaXladjg1amJYVGlTZUxOb2h3blNZVXI3TVlzb25OMHZCRHQ5NG15N1RhV3dQT2VNOXpValk0MW5ub05rOG1zRUkxdHpCdG83QWRBemtMa0s3cWtsWDkxRDRiVHZrcFdSQXN0VXR2eUJ1ZVl3dEwvaEI4YTBXTWpvNGx2MjFSN0RjS2RZWVBjKzk0NTFQQU5vczFtaWdGOU0yejJSdTRCUWVrTlVMQXY=
     delayedInitialization: 0
     cameraDeviceModeSetting: -1
     maxSimultaneousImageTargets: 1
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
-    version: 1.0.0
-    eulaAcceptedVersions: 
-  digitalEyewear:
-    cameraOffset: 0.06
-    distortionRenderingLayer: 31
-    eyewearType: 0
-    stereoFramework: 0
-    seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
-    useCustomViewer: 0
-    customViewer:
-      Version: 0
-      Name: 
-      Manufacturer: 
-      ButtonType: 0
-      ScreenToLensDistance: 0
-      InterLensDistance: 0
-      TrayAlignment: 0
-      LensCenterToTrayDistance: 0
-      DistortionCoefficients: {x: 0, y: 0}
-      FieldOfView: {x: 0, y: 0, z: 0, w: 0}
-      ContainsMagnet: 0
+    modelTargetRecoWhileExtendedTracked: 1
+    version: 8.5.9
+    eulaAcceptedVersions: '{"Values":["8.1","8.5"]}'
   database:
     disableModelExtraction: 0
   videoBackground:
-    clippingMode: 0
     numDivisions: 2
     videoBackgroundShader: {fileID: 4800000, guid: f40623b353e2f1943b1b3ba42975db7a,
       type: 3}
-    matteShader: {fileID: 4800000, guid: 66d0d78a3000021448b598bb54a3bfdf, type: 3}
     videoBackgroundEnabled: 1
   deviceTracker:
     autoInitTracker: 0
     autoStartTracker: 0
-    trackingMode: 1
-    posePrediction: 0
-    modelCorrectionMode: 0
-    modelTransformEnabled: 0
-    modelTransform: {x: 0, y: 0.1, z: -0.1}
+    arcoreRequirement: 1
+    autoImportArcore: 1
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
   webcam:
-    deviceNameSetInEditor: 
+    deviceNameSetInEditor: EasyCamera
     turnOffWebCam: 0
     renderTextureLayer: 30
