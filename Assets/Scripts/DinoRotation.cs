@@ -14,10 +14,8 @@ public class DinoRotation : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         if(Input.touchCount > 0)
         {
-            
             touch = Input.GetTouch(0);
             if(touch.phase == TouchPhase.Moved){
                 rot_y = Quaternion.Euler(0f,-touch.deltaPosition.x * touch_rot_speed,0f);
