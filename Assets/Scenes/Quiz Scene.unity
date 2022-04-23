@@ -1254,6 +1254,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 502417720}
     m_Modifications:
+    - target: {fileID: 8760147811754476149, guid: 91941b9b2bad4e44f8707c2936a8bf1d,
+        type: 3}
+      propertyPath: m_IsOn
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8760147811754476154, guid: 91941b9b2bad4e44f8707c2936a8bf1d,
         type: 3}
       propertyPath: m_SizeDelta.x
@@ -1293,6 +1298,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -191.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760147812069089327, guid: 91941b9b2bad4e44f8707c2936a8bf1d,
+        type: 3}
+      propertyPath: m_IsOn
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760147812271430464, guid: 91941b9b2bad4e44f8707c2936a8bf1d,
+        type: 3}
+      propertyPath: m_IsOn
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8760147812271430465, guid: 91941b9b2bad4e44f8707c2936a8bf1d,
         type: 3}
@@ -1498,6 +1513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -191.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8760147813399575213, guid: 91941b9b2bad4e44f8707c2936a8bf1d,
+        type: 3}
+      propertyPath: m_IsOn
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8760147812790174277, guid: 91941b9b2bad4e44f8707c2936a8bf1d, type: 3}
