@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="Jupiter" size="1.000000 1.000000" />
+    <ImageTarget name="Moon" size="1.000000 1.000000" />
     <ImageTarget name="Covid-19" size="1.000000 1.000000" />
     <ImageTarget name="Mars_Marker" size="1.000000 1.000000" />
     <ImageTarget name="Dino" size="0.200000 0.200000" />
